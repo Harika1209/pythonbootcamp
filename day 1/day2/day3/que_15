@@ -1,0 +1,6 @@
+my_array=list(map(int,input().split(" ")))
+my_array2=[]
+for i in my_array:
+    if(i in my_array2):
+        my_array2.append(i)
+print(my_array2)

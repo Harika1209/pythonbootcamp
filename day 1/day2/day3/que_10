@@ -1,0 +1,11 @@
+# print the element in a particular k index using cyclic
+k=int(input())
+my_list=list(map(int,input().split(" ")))
+# var1=len(my_list)*2-1
+# var1=var1-k
+# print(my_list[var1])
+k=k%len(my_list)
+print(my_list[k])
+
+
+

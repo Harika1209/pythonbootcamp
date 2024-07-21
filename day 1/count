@@ -1,0 +1,23 @@
+# my_list=list(map(int,input().split(" ")))
+# even=0
+# odd=0 
+# for i in range(len(my_list)):
+#     if(my_list[i]%2==0):
+#        even+=i
+#        print(even)
+#     else:
+#        odd+=i
+#        print(odd)
+my_list=list(map(int,input().split(" ")))
+# n=len(my_list)
+sum=0
+count=0
+for i in range(len(my_list)):
+    sum+=my_list[i]
+    count+=1
+print(sum/count)
+# write a program to find area of acircle
+# write a program to find perimeter of circle
+# write a program to find area ofa triangle
+# to find perimeter of triangle
+# learn prime no. using sqrt method
