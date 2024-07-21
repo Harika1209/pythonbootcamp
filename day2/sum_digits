@@ -1,0 +1,20 @@
+# num=int(input())
+# sum=0
+# sum=0
+# while(num>0):
+#     r=num%10
+#     sum=sum*10+r
+#     num=num//10
+# print(sum)
+n=1234
+rev=" "
+while(n>0):
+    r=n%10
+    rev=rev+str(r)
+    n=n//10
+ans=int(rev)
+print(ans)
+print(type(ans))
+
+
+
