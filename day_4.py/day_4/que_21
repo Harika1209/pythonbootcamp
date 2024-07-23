@@ -1,0 +1,14 @@
+# a=3
+# b=1
+# a,b=b,a%b
+# print(a)
+# print(b)
+a=int(input("first num"))
+b=int(input("second num"))
+while b!=0:
+    a,b=b,a%b
+print("gcd of 2 no. is:",a)
+# gcd=a
+# lcm=(a*b)/gcd
+# print(lcm)
+
