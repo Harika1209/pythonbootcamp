@@ -1,0 +1,10 @@
+inp="hello1234world"
+ans=0
+check="1234"
+for i in inp:
+    if i in check:
+        ans=ans*10+i
+print(ans)
+
+
+

@@ -1,0 +1,14 @@
+vowel="aeiou"
+consonent="bcdfghjklmnpqrstvwxyz"
+count=0
+count1=0
+i="hello wOrld"
+inp=i.lower()
+for i in inp:
+    if(i in vowel):
+        count+=1
+print("vowel",count)
+for i in inp:
+    if(i in consonent):
+        count1+=1
+print("conso",count1)

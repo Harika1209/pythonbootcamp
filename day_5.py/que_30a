@@ -1,0 +1,6 @@
+#  remove all the brackets from the given algebraic expression
+str=input()
+check=("(",")")
+for i in str:
+    if i not in check:
+     print(i,end="")

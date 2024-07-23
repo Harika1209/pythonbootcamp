@@ -1,0 +1,8 @@
+check=['a','e','i','o','u']
+i="Hello world"
+inp=i.lower()
+count=0
+for i in inp:
+    if(i in check):
+        count+=1
+print(count)

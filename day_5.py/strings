@@ -1,0 +1,36 @@
+# string methods are 
+# is upper
+# is lower
+# is digit
+# is alum
+# is alpha
+# swap case
+# title case
+# str=input()
+# print(str.lower())
+# print(str.upper())
+# print(str.len())
+# print(str.swapcase())
+# print(str.title())
+# print(str.captalize())
+# print(str.strip())
+# print(str.replace('a','z'))
+# print(str.split('a'))
+# print(str.isalpha())
+# print(str.isnumeric())
+# print(str.isalnum())
+# print(str.isascii())
+# print(str.islower())
+# print(str.isdigit())
+print(ord('A'))
+print(ord('A')+3)
+print(ord('J'))
+print(chr(65))
+
+
+
+
+
+
+
+

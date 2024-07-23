@@ -1,0 +1,10 @@
+inp="hello123world"
+ans=0
+check="1234567"
+for i in inp:
+    if i in check:
+        ans+=int(i)
+print(ans)
+
+
+
