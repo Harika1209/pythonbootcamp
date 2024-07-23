@@ -1,0 +1,32 @@
+# password verifier mr.x is trying to create a new password for his instagram account
+# this are required conditions for creating a new password
+# condition1:min len is 0 and max is 15
+# conditin2:only @ and / are allowed must
+# condition3:no spaces are allowed
+# condition4:only alphanumerics are allowed
+# you are supposed to print weak if length is exact 8
+# medium 8-12
+# strong 12-15
+str=input()
+len=(len(str))
+str_a="@"
+str_b="/"
+for i in range(len):
+    if str[i]==str_a or str[i]==str_b and str!=" ":
+        print(str)
+    else:
+        print("follow the condition")
+# for i in str:
+#     if len(str)==8:
+#         print("weak")
+#     elif len(str)>8 and len(str)<=12:
+#         print(medium)
+#     elif len(str)>12 and len(str)<=15:
+#         print("strong")
+
+        
+
+
+        
+
+

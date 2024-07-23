@@ -1,0 +1,12 @@
+k=int(input())
+n=int(input())
+my_list=list(map(int,input().split(" ")))
+var1=k+n
+if(len(my_list)<var1):
+    print("error")
+else:
+    for i in range(0,len(my_list)):
+        print(my_list[k+n],end=" ")
+        break
+    # for i in range(var1):
+    # print(i[var1])
